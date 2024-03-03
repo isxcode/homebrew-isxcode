@@ -11,7 +11,7 @@ class Isx < Formula
   checksums = {
     "darwin-arm64" => "0b16fb5bc6579e71a8a186a691e6b6c10b25c1fc339775621d4c34f4e340a1de",
     # "darwin-intel" => ""
-    "linux-arm64" => "https://github.com/isxcode/isx-cli/releases/download/v1.1.0/isx_linux_amd64",
+    "linux-arm64" => "6df29af99d10684a3681cb66216135509da2378538b2e65ef6bf8e7f0f28cb6a",
     # "linux-intel" => ""
   }
 
