@@ -1,2 +1,2 @@
 # homebrew-isxcode
-Homebrew tap for echojamie/isxcode
+Homebrew tap for isxcode/isxcode
