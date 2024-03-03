@@ -43,6 +43,9 @@ class Isx < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", "--disable-silent-rules", *std_configure_args
     arch = Hardware::CPU.intel? ? "intel" : Hardware::CPU.arch.to_s if OS.mac?
+    on_intel do
+      arch = "intel"
+    end
     kernel = OS.mac? ? "darwin" : "linux"
     bin.install "isx_#{kernel}_#{arch}" => "isx"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
